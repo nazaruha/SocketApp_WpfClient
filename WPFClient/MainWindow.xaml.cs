@@ -87,6 +87,7 @@ namespace WPFClient
                 ns.Close();
                 tcpClient.Close();
                 isConnect = false;
+                txtServerResponding.Text = "Dissconected";
             }
             catch
             {
